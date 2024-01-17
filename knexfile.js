@@ -3,7 +3,7 @@ const path = require("path");
 require("dotenv").config();
 
 const {
-  DATABASE_URL = "postgres://dev_9n6g_user:qkTBHBfX4d7PsUqjz7Wk26eJVwF4n05l@dpg-cmjts26n7f5s73cfcumg-a.oregon-postgres.render.com/dev_9n6g",
+  DATABASE_URL = "postgres://dev_9n6g_user:qkTBHBfX4d7PsUqjz7Wk26eJVwF4n05l@dpg-cmjts26n7f5s73cfcumg-a.oregon-postgres.render.com/dev_9n6g?ssl=true",
 } = process.env;
 
 module.exports = {
