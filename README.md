@@ -44,3 +44,17 @@ If a request is made to a route that does not exist, the server returns a 404 er
 If a request is made to a route that exists, but the HTTP method is wrong, a 405 error is returned.
 All of your routes should respond with the appropriate status code and should use a data key in the response.
 Note: In addition to needing to pass the tests and requirements in the instructions here, please review the Rubric Requirements for the human-graded part of this project in your Thinkful curriculum page.
+
+
+- Ability to both build complex servers and access data through a database.
+- Install and use common middleware packages.
+- Receive requests through routes.
+- Running tests from the command line.
+- Access relevant information through route and query parameters.
+- Create an error handler for the case where a route does not exist.
+- Build an API following RESTful design principles.
+- Create and customize a knexfile.js file.
+- Create a connection to your database with knex.
+- Write database queries to complete CRUD routes in an Express server.
+- Return joined and nested data with Knex.
+- Write database migrations using Knex's migration tools.
